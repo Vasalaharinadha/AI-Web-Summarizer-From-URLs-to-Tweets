@@ -8,7 +8,7 @@ from SimplerLLM.tools.generic_loader import load_content
 
 llm_instance = LLM.create(provider=LLMProvider.OPENAI, model_name="gpt-3.5-turbo")
 
-url = "https://www.roguefilms.co.uk/"
+url = "https://learn.microsoft.com/en-us/ai/?tabs=developer"
 
 content = load_content(url).content
 
